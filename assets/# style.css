@@ -83,3 +83,22 @@ body {
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
 }
+
+footer{
+    background-color:black;
+    color:white;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p {
+    texter-aling:center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+@media(max-width: 560px; ) {
+    body {
+        background: url('imgbg-mobile.webp' ), no-repeat cover;
